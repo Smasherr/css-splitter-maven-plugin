@@ -1,9 +1,11 @@
 package biz.gabrys.maven.plugins.css.splitter.steadystate;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assume.assumeFalse;
 import static org.junit.Assume.assumeTrue;
 import static org.mockito.Mockito.mock;
 
+import java.util.Arrays;
 import java.util.List;
 
 import org.apache.maven.plugin.logging.Log;
@@ -37,7 +39,7 @@ public final class SteadyStateParserTest {
 
     @Test
     public void parse_documentWithDifferentRules_returnsStyleSheet() {
-        assumeTrue(Standard.VERSION_3_0 == standard);
+        assumeFalse(Arrays.asList(Standard.VERSION_1_0, Standard.VERSION_2_1).contains(standard));
 
         final StringBuilder css = new StringBuilder();
         css.append("@charset 'UTF-8';\n");
