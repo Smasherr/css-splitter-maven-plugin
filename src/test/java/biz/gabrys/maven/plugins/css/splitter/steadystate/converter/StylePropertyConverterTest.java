@@ -12,7 +12,7 @@ import biz.gabrys.maven.plugins.css.splitter.css.type.StyleProperty;
 public final class StylePropertyConverterTest {
 
     private static final String NAME = "name";
-    private static final String VALUE = "value";
+    private static final String VALUE = "value\\r\\n\\t\\200B";
 
     @Test
     public void convert_importantIsFalse() {
