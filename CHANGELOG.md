@@ -7,7 +7,7 @@ Features:
 
 Bugs:
 * Fixed `!important` is missing in split code  ([#23](https://github.com/gabrysbiz/css-splitter-maven-plugin/issues/23))
-* Fixed special character sequences are interpreted instead of copied ([#26](https://github.com/gabrysbiz/css-splitter-maven-plugin/issues/26))
+* Fixed special character sequences are interpreted instead of copied as is ([#26](https://github.com/gabrysbiz/css-splitter-maven-plugin/issues/26))
 
 Dependencies:
 * Upgraded [Maven Plugin Utils](http://maven-plugin-utils.projects.gabrys.biz/) from [1.4.1](http://maven-plugin-utils.projects.gabrys.biz/1.4.1/) to [2.0.0](http://maven-plugin-utils.projects.gabrys.biz/2.0.0/)

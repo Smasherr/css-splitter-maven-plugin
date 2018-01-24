@@ -20,7 +20,7 @@
                     (<a href="https://github.com/gabrysbiz/css-splitter-maven-plugin/issues/23">#23</a>)
                 </li>
                 <li>
-                    Fixed special character sequences are interpreted instead of copied
+                    Fixed special character sequences are interpreted instead of copied as is
                     (<a href="https://github.com/gabrysbiz/css-splitter-maven-plugin/issues/26">#26</a>)
                 </li>
             </ul>
